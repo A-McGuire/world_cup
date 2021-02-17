@@ -1,5 +1,6 @@
 class Player
   attr_reader :name_position
+  
   def initialize(name_position)
     @name_position = name_position
   end
