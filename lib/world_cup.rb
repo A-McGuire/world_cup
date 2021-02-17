@@ -20,7 +20,7 @@ class WorldCup
     all_players = teams.flat_map do |team|
       team.players
     end
-    
+
     all_players.group_by do |player|
       player.position
     end

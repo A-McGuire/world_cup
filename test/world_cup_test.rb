@@ -79,7 +79,7 @@ class WolrdCupTest < Minitest::Test
 
     croatia = Team.new("Croatia")
     modric = Player.new({name: "Luka Modric", position: "midfielder"})
-    vida = Player.new({name: "Domagoj Vida", position: "defender"})   
+    vida = Player.new({name: "Domagoj Vida", position: "defender"})
     croatia.add_player(modric)
     croatia.add_player(vida)
 
